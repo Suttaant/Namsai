@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namsai Jaijing - Water Delivery Monitoring</title>
+    <!-- Firebase SDK via CDN -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+    <script>
+      // Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDQ8sZoOzM5sNSK29LdvU5HmgDo9Op4EBY",
+        authDomain: "namsai-location.firebaseapp.com",
+        projectId: "namsai-location",
+        storageBucket: "namsai-location.appspot.com",
+        messagingSenderId: "827572051862",
+        appId: "1:827572051862:web:b4b81997549e21eda147b7",
+        measurementId: "G-PZ0YM4QNR3"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
